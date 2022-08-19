@@ -1,0 +1,41 @@
+body {
+    font-family: 'Baloo Bhai 2', cursive;
+    max-width: 800px;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+h2 {
+    text-align: left;
+}
+/* ///////////// container  Style/ ///////// */
+
+.container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+/* ///////////// list Style/ ///////// */
+.list {
+    padding: 10px;
+    border: 0.5px solid black;
+    border-collapse: collapse;
+}
+
+ul,ol{
+    margin: 0px;
+}
+
+#square{
+    list-style: square;
+}
+
+#circle{
+    list-style: circle;
+}
+
+/* //////////Content Style//////////  */
+.content {
+    padding: 10px;
+    border: 0.5px solid black;
+}
